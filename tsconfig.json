@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "rootDir": "./src",
+        "outDir": "scripts"
+    },
+    "include": [
+        "**/*"
+    ],
+    "exclude": [
+        "node_modules"   
+    ]
+}

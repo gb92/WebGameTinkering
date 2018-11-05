@@ -1,4 +1,3 @@
-const nodeResolve = require('rollup-plugin-node-resolve')
 const path = require('path')
 
 module.exports = function(grunt) {
@@ -10,19 +9,6 @@ module.exports = function(grunt) {
         tsconfig: './tsconfig.json'
       }
     },
-    /*"rollup": {
-      options: {
-        plugins: [
-          nodeResolve()
-        ],
-        format: 'es',
-        sourceMap: true
-      },
-      files:{
-        'dest':'scripts/bundle.js',
-        'src': 'scripts/app.js'
-      }
-    },*/
     "webpack": {
       "config": {
         entry:'./build/app.js',

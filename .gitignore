@@ -1,3 +1,4 @@
 .tscache
-scripts/
+build/
+dist/
 node_modules/

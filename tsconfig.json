@@ -1,11 +1,11 @@
 {
     "compilerOptions": {
-        "module": "es6",
+        "module": "es2015",
         "noImplicitAny": true,
         "noImplicitReturns": true,
         "noFallthroughCasesInSwitch": true,
         "rootDir": "./src",
-        "outDir": "scripts"
+        "outDir": "build"
     },
     "include": [
         "**/*"
